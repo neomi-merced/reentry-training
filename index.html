@@ -1282,9 +1282,6 @@ a[data-passage]:hover {
       &lt;div&gt;&lt;strong&gt;3x&#39;s Failed Nursing Courses&lt;/strong&gt;&lt;span&gt;Learners who have attempted but have not passed a core nursing course after three attempts are not eligible to return to the same program but may be eligible for another lesser degree or program if available in their area.&lt;/span&gt;&lt;/div&gt;
     &lt;/li&gt;
     &lt;li&gt;
-      &lt;div&gt;&lt;strong&gt;3x&#39;s Failed GE Courses&lt;/strong&gt;&lt;span&gt;Learners who have attempted but have not passed a general education course after three attempts may take that course elsewhere and transfer it into Nightingale to be eligible to return to the same program.&lt;/span&gt;&lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
       &lt;div&gt;&lt;strong&gt;No New Transfer Credits&lt;/strong&gt;&lt;span&gt;The learner is NOT bringing in any additional credits at the time of re-entry. This is a hard disqualifier for STRE.&lt;/span&gt;&lt;/div&gt;
     &lt;/li&gt;
     &lt;li&gt;
@@ -1563,22 +1560,22 @@ a[data-passage]:hover {
   &lt;div class=&quot;step-dot current&quot;&gt;3&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;question-label&quot;&gt;Question 3 of 3&lt;/div&gt;
-&lt;h3&gt;Marcus&#39;s HESI exam was taken in April 2024 and his LDA was 3/10/2024. He is returning for Fall 2025. Should his HESI exam credit be honored?&lt;/h3&gt;
+&lt;h3&gt;Marcus&#39;s LDA is 3/10/2024 and he is returning for Fall 2025. He took the HESI exam in April 2024. Based on his LDA, should his HESI exam credit be honored?&lt;/h3&gt;
 &lt;div class=&quot;answers&quot;&gt;
   [[Yes — HESI credits do not expire.-&gt;S2_Q3_Wrong1]]
-  [[Yes — the exam was taken before the LDA so it is automatically valid.-&gt;S2_Q3_Wrong2]]
+  [[Yes — the LDA falls withing 1 year and 1 semester so it is automatically valid.-&gt;S2_Q3_Wrong2]]
   [[No — the exam was not taken within 1 year and 1 semester after the LDA so it cannot be honored.-&gt;S2_Q3_Correct]]
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="S2_Q3_Wrong1" tags="" position="675,2425" size="100,100">&lt;&lt;set $attempts to $attempts + 1&gt;&gt;
 
 &lt;div class=&quot;incorrect&quot;&gt;
-  &lt;h3&gt;Incorrect.&lt;/h3&gt;&lt;p&gt;HESI and MDC exam credits do have an eligibility window. They must have been taken within 1 year and 1 semester after the LDA. Always verify this.&lt;/p&gt;
+  &lt;h3&gt;Incorrect.&lt;/h3&gt;&lt;p&gt;HESI and MDC exam credits do have an eligibility window. The LDA must be within 1 year and 1 semester. Always verify this.&lt;/p&gt;
 &lt;/div&gt;
 
 [[Try Again-&gt;S2_Q3]]</tw-passagedata><tw-passagedata pid="33" name="S2_Q3_Correct" tags="" position="800,2425" size="100,100">&lt;&lt;if $attempts is 0&gt;&gt;&lt;&lt;set $score to $score + 1&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;set $attempts to 0&gt;&gt;
 
 &lt;div class=&quot;correct&quot;&gt;
-  &lt;h3&gt;Correct!&lt;/h3&gt;&lt;p&gt;The HESI must be taken within 1 year and 1 semester after the LDA. Marcus&#39;s LDA was 3/10/2024 and he returns FA25 — that is more than 1 year and 1 semester, so the HESI credit from April 2024 cannot be applied.&lt;/p&gt;
+  &lt;h3&gt;Correct!&lt;/h3&gt;&lt;p&gt;The LDA must be within 1 year and 1 semester in order to continue to accept HESI credits. Marcus&#39;s LDA was 3/10/2024 and he returns FA25 — that is within the timeframe.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;note&quot;&gt;Always verify that Total Transfer Credits on the PP match Credits Earned on the official transcript before finalizing.
 &lt;/div&gt;
